@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="MobileBuildCmd" uuid="47BA70ABFD71494992863595DF0456CD" collation_locale="en-gb">
+	<schema name="DEFAULT_SCHEMA"/>
+</base>

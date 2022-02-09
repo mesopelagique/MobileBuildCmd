@@ -1,0 +1,11 @@
+{
+  "commitish" : "9.0.4",
+  "iOS" : [
+    {
+      "hash" : "f4c41d9e613b7895e743b534fd7fb28a7e9e2c9b0b49a313861844c1751c0b2d",
+      "name" : "SwiftMessages",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.2.3",
+  "iOS" : [
+    {
+      "hash" : "6545831431cc7fd13c42d4bacfee8707020fb8f623796a10aca0cb0f7d730c05",
+      "name" : "ValueTransformerKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

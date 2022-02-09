@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<document colorMatched="YES" initialViewController="XUq-5b-LM2" propertyAccessControl="none" targetRuntime="iOS.CocoaTouch" toolsVersion="14868" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" useAutolayout="YES" useTraitCollections="YES" version="3.0">
+    <device appearance="light" id="retina4_7" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability minToolsVersion="9.0" name="Named colors"/>
+        <capability minToolsVersion="8.0" name="documents saved in the Xcode 8 format"/>
+    </dependencies>
+    <scenes>
+        
+<!--___TABLE___ListForm-->
+        
+        
+<!--SettingsForm-->
+        <scene sceneID="Bvd-ah-g1X">
+            <objects>
+                <viewControllerPlaceholder id="vX7-H8-1g1" sceneMemberID="viewController" storyboardName="SettingsForm">
+                    <tabBarItem id="ny1-C0-8BE" image="settings" key="tabBarItem" title="Settings"/>
+                </viewControllerPlaceholder>
+                <placeholder id="lC4-ev-CHw" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder" userLabel="First Responder"/>
+            </objects>
+            <point key="canvasLocation" x="352" y="-219"/>
+        </scene>
+        
+<!--Main Navigation-->
+        <scene sceneID="5tF-Lk-Zp4">
+            <objects>
+                <tabBarController customClass="MainNavigation" customModule="___PRODUCT___" customModuleProvider="target" id="XUq-5b-LM2" modalPresentationStyle="fullScreen" sceneMemberID="viewController">
+                    <tabBar contentMode="scaleToFill" id="34m-v6-Nve" key="tabBar">
+                        <rect height="49" key="frame" width="375" x="0.0" y="0.0"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="BackgroundColor"/>
+                        <color cocoaTouchSystemColor="darkTextColor" key="selectedImageTintColor" systemColor="labelColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2A3-6A-149" id="11E-DB-97F" kind="relationship" relationship="viewControllers"/>
+            <segue destination="10D-2F-79F" id="74E-14-67E" kind="relationship" relationship="viewControllers"/>
+                        <segue destination="vX7-H8-1g1" id="vX7-H8-1g2" kind="relationship" relationship="viewControllers"/>
+                    </connections>
+                </tabBarController>
+                <placeholder id="6oT-TP-7eo" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder" userLabel="First Responder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="-665"/>
+        </scene>
+    <scene sceneID="DFC-1A-1D2">
+            <objects>
+                <viewControllerPlaceholder id="2A3-6A-149" sceneMemberID="viewController" storyboardName="DataFormatterListForm">
+                    <tabBarItem id="39C-DD-E51" image="MainDataFormatter" key="tabBarItem" selectedImage="MainDataFormatter" title=""/>
+                </viewControllerPlaceholder>
+                <placeholder id="623-16-7C8" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder" userLabel="First Responder"/>
+            </objects>
+            <point key="canvasLocation" x="99" y="-219"/>
+        </scene><scene sceneID="D8E-E6-CF6">
+            <objects>
+                <viewControllerPlaceholder id="10D-2F-79F" sceneMemberID="viewController" storyboardName="Table_1ListForm">
+                    <tabBarItem id="E18-BD-444" image="MainTable_1" key="tabBarItem" selectedImage="MainTable_1" title=""/>
+                </viewControllerPlaceholder>
+                <placeholder id="C57-7E-739" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder" userLabel="First Responder"/>
+            </objects>
+            <point key="canvasLocation" x="99" y="-219"/>
+        </scene></scenes>
+    <resources>
+        
+        <image height="25" name="settings" width="25"/>
+        <namedColor name="BackgroundColor">
+            <color alpha="0.33000000000000002" blue="0.47762881517410277" colorSpace="deviceRGB" green="0.32396804094314574" red="0.32929306030273436"/>
+        </namedColor>
+    <image height="25" name="MainDataFormatter" width="25"/>
+    <image height="25" name="MainTable_1" width="25"/>
+  </resources>
+
+</document>

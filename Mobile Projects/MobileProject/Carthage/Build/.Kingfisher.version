@@ -1,0 +1,11 @@
+{
+  "commitish" : "7.0.0-beta.4",
+  "iOS" : [
+    {
+      "hash" : "96c81b49961037150e3713ca9712bc85788abfe681e5ba748f0cb84168786b75",
+      "name" : "Kingfisher",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

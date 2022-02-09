@@ -1,0 +1,11 @@
+{
+  "commitish" : "103ab34d0b150370c091a0c71b7a117a60f5c9f4",
+  "iOS" : [
+    {
+      "hash" : "16c56a627ddca29360413d891a5e8f94b639806d41b851ca50f9c67018a8587d",
+      "name" : "QMobileAPI",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

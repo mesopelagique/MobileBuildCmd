@@ -1,0 +1,11 @@
+{
+  "commitish" : "57989f95a17ae1510a70e21d895119e695e18667",
+  "iOS" : [
+    {
+      "hash" : "6c008c2b33989144731dab2dda9d587e2f09bf040d110a1b152e2dfef8d04ea5",
+      "name" : "QMobileDataStore",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

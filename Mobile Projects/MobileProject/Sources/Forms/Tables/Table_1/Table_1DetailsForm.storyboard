@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Y2J-Qb-nvx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="xny-MY-O2Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y2J-Qb-nvx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yeb-5T-Sqp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <color key="tintColor" name="ForegroundColor"/>
+                        <color key="barTintColor" name="BackgroundColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fuA-6I-sTU" kind="relationship" relationship="rootViewController" id="Zen-xD-CJf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdZ-1v-BVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1265" y="111"/>
+        </scene>
+        <!--Table1 Details Form-->
+        <scene sceneID="fK0-6P-J5Y">
+            <objects>
+                <viewController storyboardIdentifier="Table_1DetailsForm" id="fuA-6I-sTU" customClass="Table_1DetailsForm" customModule="Resources" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7i1-qQ-Sbo"/>
+                        <viewControllerLayoutGuide type="bottom" id="D8o-Fj-VKX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g8H-lI-SA8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qot-ou-cxE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="bV1-Oi-EHF">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E70-52-A5A">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                                <subviews>
+                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="&lt;Alpha&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BC-5D-35F">
+                                                        <rect key="frame" x="8" y="51.5" width="359" height="29.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.alpha" value="text"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpha" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72B-F0-82E" customClass="IconLabel" customModule="Resources" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="20" width="359" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <color key="textColor" name="BackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="imagePadding">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="image"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageContextTemplate" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageAspectFit" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="imagePosition" value="left"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="72B-F0-82E" firstAttribute="leading" secondItem="E70-52-A5A" secondAttribute="leading" constant="8" id="354-FC-98B"/>
+                                                    <constraint firstAttribute="trailing" secondItem="5BC-5D-35F" secondAttribute="trailing" constant="8" id="52B-5D-AF6"/>
+                                                    <constraint firstItem="5BC-5D-35F" firstAttribute="leading" secondItem="E70-52-A5A" secondAttribute="leading" constant="8" id="61E-E3-80E"/>
+                                                    <constraint firstAttribute="bottom" secondItem="5BC-5D-35F" secondAttribute="bottom" constant="16" id="62E-BF-C7F"/>
+                                                    <constraint firstAttribute="trailing" secondItem="72B-F0-82E" secondAttribute="trailing" constant="8" id="742-1A-713"/>
+                                                    <constraint firstItem="72B-F0-82E" firstAttribute="top" secondItem="E70-52-A5A" secondAttribute="top" constant="20" id="798-36-E23"/>
+                                                    <constraint firstItem="5BC-5D-35F" firstAttribute="top" secondItem="72B-F0-82E" secondAttribute="bottom" constant="8" id="FFF-E0-CE0"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="437-C0-824">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                                <subviews>
+                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="&lt;Text&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5C-D5-2D7">
+                                                        <rect key="frame" x="8" y="51.5" width="359" height="29.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.text" value="text"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="814-C5-C35" customClass="IconLabel" customModule="Resources" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="20" width="359" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <color key="textColor" name="BackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="imagePadding">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="image"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageContextTemplate" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageAspectFit" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="imagePosition" value="left"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="A5C-D5-2D7" firstAttribute="top" secondItem="814-C5-C35" secondAttribute="bottom" constant="8" id="4AA-CD-E50"/>
+                                                    <constraint firstItem="A5C-D5-2D7" firstAttribute="leading" secondItem="437-C0-824" secondAttribute="leading" constant="8" id="622-1C-15A"/>
+                                                    <constraint firstAttribute="trailing" secondItem="A5C-D5-2D7" secondAttribute="trailing" constant="8" id="82D-F1-0B2"/>
+                                                    <constraint firstAttribute="trailing" secondItem="814-C5-C35" secondAttribute="trailing" constant="8" id="93F-23-B08"/>
+                                                    <constraint firstAttribute="bottom" secondItem="A5C-D5-2D7" secondAttribute="bottom" constant="16" id="A50-AD-6BB"/>
+                                                    <constraint firstItem="814-C5-C35" firstAttribute="top" secondItem="437-C0-824" secondAttribute="top" constant="20" id="BAE-E7-691"/>
+                                                    <constraint firstItem="814-C5-C35" firstAttribute="leading" secondItem="437-C0-824" secondAttribute="leading" constant="8" id="CBD-40-D53"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAE-7E-F99">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                                <subviews>
+                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="&lt;Date&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="460-A3-D11">
+                                                        <rect key="frame" x="8" y="51.5" width="359" height="29.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.date" value="mediumDate"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EE-64-854" customClass="IconLabel" customModule="Resources" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="20" width="359" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <color key="textColor" name="BackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="imagePadding">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="image"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageContextTemplate" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageAspectFit" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="imagePosition" value="left"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="460-A3-D11" firstAttribute="leading" secondItem="EAE-7E-F99" secondAttribute="leading" constant="8" id="024-2F-3E7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="0EE-64-854" secondAttribute="trailing" constant="8" id="035-33-B5D"/>
+                                                    <constraint firstItem="0EE-64-854" firstAttribute="top" secondItem="EAE-7E-F99" secondAttribute="top" constant="20" id="04C-1E-002"/>
+                                                    <constraint firstItem="0EE-64-854" firstAttribute="leading" secondItem="EAE-7E-F99" secondAttribute="leading" constant="8" id="0DD-E2-97B"/>
+                                                    <constraint firstItem="460-A3-D11" firstAttribute="top" secondItem="0EE-64-854" secondAttribute="bottom" constant="8" id="3E3-98-2FB"/>
+                                                    <constraint firstAttribute="bottom" secondItem="460-A3-D11" secondAttribute="bottom" constant="16" id="BDD-F8-55F"/>
+                                                    <constraint firstAttribute="trailing" secondItem="460-A3-D11" secondAttribute="trailing" constant="8" id="CD1-FD-81B"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D25-A9-4A0">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                                <subviews>
+                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="&lt;Time&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88B-F4-D5F">
+                                                        <rect key="frame" x="8" y="51.5" width="359" height="29.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.time" value="mediumTime"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1F-49-E17" customClass="IconLabel" customModule="Resources" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="20" width="359" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <color key="textColor" name="BackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="imagePadding">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="image"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageContextTemplate" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageAspectFit" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="imagePosition" value="left"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="88B-F4-D5F" firstAttribute="top" secondItem="C1F-49-E17" secondAttribute="bottom" constant="8" id="27D-EF-B6B"/>
+                                                    <constraint firstItem="C1F-49-E17" firstAttribute="top" secondItem="D25-A9-4A0" secondAttribute="top" constant="20" id="281-E5-D2B"/>
+                                                    <constraint firstItem="C1F-49-E17" firstAttribute="leading" secondItem="D25-A9-4A0" secondAttribute="leading" constant="8" id="28D-FD-6D0"/>
+                                                    <constraint firstItem="88B-F4-D5F" firstAttribute="leading" secondItem="D25-A9-4A0" secondAttribute="leading" constant="8" id="749-51-38E"/>
+                                                    <constraint firstAttribute="trailing" secondItem="88B-F4-D5F" secondAttribute="trailing" constant="8" id="92D-C9-EB5"/>
+                                                    <constraint firstAttribute="trailing" secondItem="C1F-49-E17" secondAttribute="trailing" constant="8" id="B65-10-3CD"/>
+                                                    <constraint firstAttribute="bottom" secondItem="88B-F4-D5F" secondAttribute="bottom" constant="16" id="E1C-1D-213"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F53-18-5DF">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                                <subviews>
+                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="&lt;Integer&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F94-A6-2C3">
+                                                        <rect key="frame" x="8" y="51.5" width="359" height="29.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.integer" value="integer"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Integer" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="458-B1-C55" customClass="IconLabel" customModule="Resources" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="20" width="359" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                                        <color key="textColor" name="BackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="imagePadding">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="image" keyPath="image"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageContextTemplate" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="imageAspectFit" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="imagePosition" value="left"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="458-B1-C55" secondAttribute="trailing" constant="8" id="1FF-4C-ACA"/>
+                                                    <constraint firstItem="F94-A6-2C3" firstAttribute="top" secondItem="458-B1-C55" secondAttribute="bottom" constant="8" id="258-63-F5F"/>
+                                                    <constraint firstItem="458-B1-C55" firstAttribute="leading" secondItem="F53-18-5DF" secondAttribute="leading" constant="8" id="2CE-9E-16C"/>
+                                                    <constraint firstAttribute="bottom" secondItem="F94-A6-2C3" secondAttribute="bottom" constant="16" id="800-29-EEC"/>
+                                                    <constraint firstAttribute="trailing" secondItem="F94-A6-2C3" secondAttribute="trailing" constant="8" id="865-59-255"/>
+                                                    <constraint firstItem="F94-A6-2C3" firstAttribute="leading" secondItem="F53-18-5DF" secondAttribute="leading" constant="8" id="CE6-A0-841"/>
+                                                    <constraint firstItem="458-B1-C55" firstAttribute="top" secondItem="F53-18-5DF" secondAttribute="top" constant="20" id="CFC-EF-254"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="bV1-Oi-EHF" firstAttribute="width" secondItem="qot-ou-cxE" secondAttribute="width" id="P3C-n9-htK"/>
+                                    <constraint firstItem="bV1-Oi-EHF" firstAttribute="leading" secondItem="qot-ou-cxE" secondAttribute="leading" id="cBF-Kc-Gu3"/>
+                                    <constraint firstItem="bV1-Oi-EHF" firstAttribute="top" secondItem="qot-ou-cxE" secondAttribute="top" id="ioK-Yg-bBx"/>
+                                    <constraint firstAttribute="trailing" secondItem="bV1-Oi-EHF" secondAttribute="trailing" id="jcw-p0-ylW"/>
+                                    <constraint firstAttribute="bottom" secondItem="bV1-Oi-EHF" secondAttribute="bottom" id="npx-nR-IOm"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qot-ou-cxE" firstAttribute="leading" secondItem="g8H-lI-SA8" secondAttribute="leading" id="Vg8-1K-CAB"/>
+                            <constraint firstItem="qot-ou-cxE" firstAttribute="top" secondItem="g8H-lI-SA8" secondAttribute="top" id="gbB-Md-BDs"/>
+                            <constraint firstAttribute="trailing" secondItem="qot-ou-cxE" secondAttribute="trailing" id="ghv-qW-1Kl"/>
+                            <constraint firstItem="D8o-Fj-VKX" firstAttribute="top" secondItem="qot-ou-cxE" secondAttribute="bottom" id="kb2-4s-m5u"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TpM-IF-mkv" userLabel="Navigation Bar">
+                        <barButtonItem key="leftBarButtonItem" image="previous" id="X4w-fz-EOZ" userLabel="PreviousPage Button Item">
+                            <color key="tintColor" name="ForegroundColor"/>
+                            <connections>
+                                <action selector="previousPage:" destination="fuA-6I-sTU" id="J2d-Ay-05G"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="next" id="9X4-6W-97w" userLabel="NextRecord Button Item">
+                                <color key="tintColor" name="ForegroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="bindTo.table.hasNext" value="enabled"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextRecord:" destination="fuA-6I-sTU" id="yUn-f0-6w1"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="previous" id="6Io-u7-AZs" userLabel="PreviousRecord Button Item">
+                                <color key="tintColor" name="ForegroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="bindTo.table.hasPrevious" value="enabled"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="previousRecord:" destination="fuA-6I-sTU" id="aDQ-B8-fWv"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="actions" value="{&quot;actions&quot;:[{&quot;name&quot;:&quot;action_2&quot;,&quot;scope&quot;:&quot;currentRecord&quot;,&quot;shortLabel&quot;:&quot;action_2&quot;,&quot;label&quot;:&quot;action_2&quot;,&quot;tableNumber&quot;:1}]}"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DmB-Uc-dHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2036.9565217391305" y="110.46195652173914"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="next" width="22" height="22"/>
+        <image name="previous" width="22" height="22"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.40599998831748962" green="0.75499999523162842" blue="0.77399998903274536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ForegroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

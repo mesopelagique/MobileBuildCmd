@@ -1,0 +1,11 @@
+{
+  "commitish" : "6.0.0",
+  "iOS" : [
+    {
+      "hash" : "dc419369ca2f34676666b740ecf5a8516e34374ef52193a1f67393cc3f7a11a6",
+      "name" : "FileKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

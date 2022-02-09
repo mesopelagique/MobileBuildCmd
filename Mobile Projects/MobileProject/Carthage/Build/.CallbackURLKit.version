@@ -1,0 +1,11 @@
+{
+  "commitish" : "3.0.0",
+  "iOS" : [
+    {
+      "hash" : "04b1235177bd32bb62be99708a7b674c2aaf1114ba1ba6aa15386f0534daf8cb",
+      "name" : "CallbackURLKit",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}

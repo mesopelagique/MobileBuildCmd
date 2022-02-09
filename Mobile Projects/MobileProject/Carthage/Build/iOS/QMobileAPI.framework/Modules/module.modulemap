@@ -1,0 +1,11 @@
+framework module QMobileAPI {
+  umbrella header "QMobileAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module QMobileAPI.Swift {
+    header "QMobileAPI-Swift.h"
+    requires objc
+}

@@ -1,0 +1,64 @@
+{
+	"Resources.xcscheme": {
+		"type": "xml",
+		"values": [
+			{
+				"xpath":"/Scheme/BuildAction/BuildActionEntries/BuildActionEntry/BuildableReference/@BuildableName",
+				"value":"Resources.app"
+			},
+			{
+				"xpath":"/Scheme/BuildAction/BuildActionEntries/BuildActionEntry/BuildableReference/@BlueprintName",
+				"value":"Resources"
+			},
+			{
+				"xpath":"/Scheme/BuildAction/BuildActionEntries/BuildActionEntry/BuildableReference/@ReferencedContainer",
+				"value":"container:Resources.xcodeproj"
+			},
+			{
+				"xpath":"/Scheme/TestAction/MacroExpansion/BuildableReference/@BuildableName",
+				"value":"Resources.app"
+			},
+			{
+				"xpath":"/Scheme/TestAction/MacroExpansion/BuildableReference/@BlueprintName",
+				"value":"Resources"
+			},
+			{
+				"xpath":"/Scheme/TestAction/MacroExpansion/BuildableReference/@ReferencedContainer",
+				"value":"container:Resources.xcodeproj"
+			},
+			{
+				"xpath":"/Scheme/LaunchAction/BuildableProductRunnable/BuildableReference/@BuildableName",
+				"value":"Resources.app"
+			},
+			{
+				"xpath":"/Scheme/LaunchAction/BuildableProductRunnable/BuildableReference/@BlueprintName",
+				"value":"Resources"
+			},
+			{
+				"xpath":"/Scheme/LaunchAction/BuildableProductRunnable/BuildableReference/@ReferencedContainer",
+				"value":"container:Resources.xcodeproj"
+			},
+			{
+				"xpath":"/Scheme/ProfileAction/MacroExpansion/BuildableReference/@BuildableName",
+				"value":"Resources.app"
+			},
+			{
+				"xpath":"/Scheme/ProfileAction/MacroExpansion/BuildableReference/@BlueprintName",
+				"value":"Resources"
+			},
+			{
+				"xpath":"/Scheme/ProfileAction/MacroExpansion/BuildableReference/@ReferencedContainer",
+				"value":"container:Resources.xcodeproj"
+			}	
+		]
+	},
+	"contents.xcworkspacedata": {
+		"type": "xml",
+		"values": [
+			{
+				"xpath":"/Workspace/FileRef/@location",
+				"value":"group:Resources.xcodeproj"
+			}	
+		]
+	}
+}

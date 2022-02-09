@@ -1,0 +1,11 @@
+framework module QMobileDataSync {
+  umbrella header "QMobileDataSync.h"
+
+  export *
+  module * { export * }
+}
+
+module QMobileDataSync.Swift {
+    header "QMobileDataSync-Swift.h"
+    requires objc
+}

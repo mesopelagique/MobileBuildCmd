@@ -1,0 +1,11 @@
+{
+  "commitish" : "14.0.1",
+  "iOS" : [
+    {
+      "hash" : "f2d9a9a8da137c8dd6ec3d53f55a1cd572dac1c4a7b8937033224fbe6f7369ee",
+      "name" : "Moya",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+    }
+  ]
+}
