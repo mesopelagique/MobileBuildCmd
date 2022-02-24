@@ -1,6 +1,0 @@
-framework module QMobileUI {
-  umbrella header "QMobileUI.h"
-
-  export *
-  module * { export * }
-}
