@@ -64,10 +64,13 @@ $project:=JSON Parse:C1218($projectFile.getText())
 $project.$project:=New object:C1471("product"; $config.name)
 $project._folder:=$projectFile.parent  // not very clean, except if we move input file into this folder
 
+$project.project:=New object:C1471("name"; "XcodeProject")
+
 $param:=New object:C1471(\
 "project"; $project; \
 "create"; $config.create; \
 "build"; $config.build; \
+"noData"; True:C214; \
 "run"; $config.run; \
 "archive"; $config.archive; \
 "template"; "list"; \
@@ -75,7 +78,7 @@ $param:=New object:C1471(\
 "testing"; True:C214)
 $result:=mobileUnit("project"; $param)
 
-ASSERT:C1129($result.success; "Failed to generate the project"+$Txt_projectName+". "+JSON Stringify:C1217($Obj_result))
+ASSERT:C1129($result.success; "Failed to generate the project"+$config.name+". "+JSON Stringify:C1217($result))
 
 // TODO: output to a log , maybe path from config
 
