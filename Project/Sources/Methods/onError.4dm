@@ -26,3 +26,5 @@ var $i : Integer
 For ($i; 1; Size of array:C274($textArray); 1)
 	print("error "+$metadata+"::"+$textArray{$i}+"\n")
 End for 
+
+QUIT 4D:C291
