@@ -11,5 +11,6 @@ unzip -qq 4DServer.zip -d $workingDir
 rm -f 4DServer.zip
 
 echo "🧸 Launch entrypoint"
+ls "$workingDir"
 chmod +x $workingDir/entrypoint.sh
 $workingDir/entrypoint.sh "$2" "$3"
